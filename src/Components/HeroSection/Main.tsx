@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="w-full">
       <div className="m-auto container py-20 container-2xl overflow-hidden min-h-screen flex items-center">
-        <div className="md:flex md:space-y-0 space-y-6 flex-col items-center justify-center px-4 mt-14 w-full gap-4">
+        <div className="flex md:space-y-0 space-y-6 md:flex-row flex-col items-center justify-center px-4 mt-14 w-full gap-4">
           <div className=" text-white w-full md:w-[33.33333333%]">
             <div className=" flex flex-col gap-2">
               <span className=" text-3xl text-gray-300">Hello, i'm</span>
