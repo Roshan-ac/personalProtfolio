@@ -1,6 +1,6 @@
 const NavMenus = () => {
   return (
-    <div className="">
+    <div className=" md:block hidden">
       <ul className="flex items-center gap-8 list-none text-lg font-semibold">
         <li className=" cursor-pointer hover:text-green-500 duration-500 ease-in-out transition-all">Home</li>
         <li className=" cursor-pointer hover:text-green-500 duration-500 ease-in-out transition-all">About</li>

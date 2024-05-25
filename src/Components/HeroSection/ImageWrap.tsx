@@ -1,15 +1,15 @@
 const ImageWrap = () => {
   return (
-    <div className=" relative w-[40vw] h-[78vh] rounded-full overflow-hidden">
-      <div className="circle bg-black w-52 h-52 absolute top-10 left-10"></div>
+    <div className="md:w-[41.6%] w-full z-10 rounded-b-full overflow-hidden px-3 relative">
+      <div className="circle bg-black w-80 h-80 absolute -z-10 top-28 left-0"></div>
       <img
-        src="/progress-shape.png"
-        className=" absolute p-3 z-10 -bottom-8 right-0 object-contain w-full h-full"
+        src="/heroImage.png"
+        className="w-full h-max object-contain"
         alt="Hero Image"
       />
       <img
-        src="/heroImage.png"
-        className=" absolute z-10 object-cover w-full h-full"
+        src="/progress-shape.png"
+        className="w-full h-max object-contain absolute right-0 bottom-0 -z-10"
         alt="Hero Image"
       />
     </div>
