@@ -19,7 +19,7 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <main className="bg-[#131313] relative overflow-hidden">
+    <main className="bg-[#131313] z-0 relative overflow-hidden">
       <Navbar />
       <MovingLines />
       <RouterProvider router={router} />

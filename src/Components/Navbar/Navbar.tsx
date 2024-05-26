@@ -31,9 +31,9 @@ const Navbar = () => {
           className="w-full z-50 md:p-6 p-4 fixed top-0 bg-[#1f1f1f]"
         >
           <div className="text-white m-auto container flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <Home className="text-green-500" />
-              <h3 className="md:text-2xl text-xl font-semibold">Home</h3>
+            <div className="flex items-center">
+              <span className="text-green-500 md:text-3xl font-bold text-2xl mb-1 mr-[1.5]">P</span>
+              <span className="md:text-2xl text-xl font-semibold">ortfolio</span>
             </div>
             <NavMenus />
             <RightMenu />
@@ -42,9 +42,9 @@ const Navbar = () => {
       ) : (
         <motion.div className="w-full md:p-6 p-4 absolute top-0">
           <div className="text-white m-auto container flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <Home className="text-green-500" />
-              <h3 className="md:text-2xl text-xl font-semibold">Home</h3>
+          <div className="flex items-center">
+              <span className="text-green-500 md:text-3xl font-bold text-2xl mb-1 mr-[1.5]">P</span>
+              <span className="md:text-2xl text-xl font-semibold">ortfolio</span>
             </div>
             <NavMenus />
             <RightMenu />

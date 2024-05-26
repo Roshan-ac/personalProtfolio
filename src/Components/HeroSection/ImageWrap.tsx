@@ -1,6 +1,6 @@
 const ImageWrap = () => {
   return (
-    <div className="md:w-[41.6%] w-full z-10 rounded-b-full overflow-hidden px-3 relative">
+    <div className="md:w-[43.66%] w-full z-10 rounded-b-full overflow-hidden px-3 relative">
       <div className="circle bg-black w-80 h-80 absolute -z-10 top-28 left-0"></div>
       <img
         src="/heroImage.png"
