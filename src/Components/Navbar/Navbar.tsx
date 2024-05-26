@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, useScroll } from "framer-motion";
 import NavMenus from "./NavMenus";
 import RightMenu from "./RightMenu";
-import { Home } from "lucide-react";
+
 
 const Navbar = () => {
   const { scrollY } = useScroll();

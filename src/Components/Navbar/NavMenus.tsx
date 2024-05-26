@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const NavMenus = () => {
   return (
     <div className=" md:block sm:hidden hidden">
