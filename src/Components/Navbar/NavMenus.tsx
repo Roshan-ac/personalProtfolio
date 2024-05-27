@@ -4,32 +4,27 @@ const NavMenus = () => {
       <ul className="flex items-center gap-8 list-none text-sm font-semibold">
         <li>
           <a
-            className=" cursor-pointer hover:text-green-500 duration-500 ease-in-out transition-all"
+            className=" tracking-wider cursor-pointer hover:text-green-500 duration-500 ease-in-out transition-all"
             href="/"
           >
-            Home
+            {"<Expeties/>"}
           </a>
         </li>
         <li>
           {/* About */}
           <a
-            className=" cursor-pointer hover:text-green-500 duration-500 ease-in-out transition-all"
+            className=" cursor-pointer tracking-wider  hover:text-green-500 duration-500 ease-in-out transition-all"
             href="/About"
           >
-            About
+            {"<About/>"}
           </a>
         </li>
-        <li className=" cursor-pointer hover:text-green-500 duration-500 ease-in-out transition-all">
-          Services
+        <li className=" cursor-pointer tracking-wider  hover:text-green-500 duration-500 ease-in-out transition-all">
+          {"<ReachMe/>"}
         </li>
-        <li className=" cursor-pointer hover:text-green-500 duration-500 ease-in-out transition-all">
-          Contact
-        </li>
-        <li className=" cursor-pointer hover:text-green-500 duration-500 ease-in-out transition-all">
-          Projects
-        </li>
-        <li className=" cursor-pointer hover:text-green-500 duration-500 ease-in-out transition-all">
-          Blogs
+        <li className=" cursor-pointer tracking-wider  hover:text-green-500 duration-500 ease-in-out transition-all">
+          
+          {"<Blogs/>"}
         </li>
       </ul>
     </div>
